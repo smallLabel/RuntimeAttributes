@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (BOOL)isEqual:(id)other;
+
+- (BOOL)isEqualToController:(ViewController *)controller;
+
+- (NSUInteger)hash;
 
 
 @end
